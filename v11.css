@@ -1,0 +1,138 @@
+.tests-v11 {
+  position: relative;
+}
+
+.tests-v11 .tests-heading {
+  max-width: 780px;
+}
+
+.tests-v11 .tests-heading h2 {
+  max-width: 760px;
+}
+
+.tests-v11 .tests-grid {
+  align-items: stretch;
+}
+
+.tests-v11 .test-card {
+  height: 100%;
+  border-color: rgba(23, 63, 43, 0.16);
+  box-shadow: 0 18px 50px rgba(23, 63, 43, 0.08);
+  transition: transform 0.28s ease, box-shadow 0.28s ease;
+}
+
+.tests-v11 .test-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 25px 65px rgba(23, 63, 43, 0.14);
+}
+
+.tests-v11 .test-image {
+  min-height: 245px;
+  background: #eee9dd;
+}
+
+.tests-v11 .test-image img {
+  object-position: center;
+  transition: transform 0.55s ease;
+}
+
+.tests-v11 .test-card:hover .test-image img {
+  transform: scale(1.035);
+}
+
+.tests-v11 .test-content {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 245px);
+}
+
+.tests-v11 .test-content h3 {
+  min-height: 2.35em;
+}
+
+.tests-v11 .test-lead {
+  min-height: 5.25em;
+}
+
+.tests-v11 details {
+  margin-bottom: 22px;
+}
+
+.tests-v11 .test-cta {
+  width: fit-content;
+  margin-top: auto;
+  border: 1px solid rgba(23, 63, 43, 0.28);
+  border-radius: 999px;
+  padding: 11px 17px;
+  transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
+.tests-v11 .test-cta:hover {
+  color: #fff;
+  background: #173f2b;
+  border-color: #173f2b;
+}
+
+.tests-v11 .test-phrase {
+  margin-top: 18px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(23, 63, 43, 0.12);
+}
+
+.contact-instagram {
+  color: #173f2b;
+  width: fit-content;
+  border-bottom: 1px solid rgba(23, 63, 43, 0.28);
+  padding-bottom: 4px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.contact-instagram strong {
+  font-weight: 800;
+}
+
+.contact-instagram span {
+  color: #b59557;
+  margin-left: 4px;
+}
+
+.footer-instagram {
+  color: #f0f2ee;
+  width: fit-content;
+  font-size: 11px !important;
+}
+
+.footer-instagram strong,
+.footer-instagram span {
+  color: #d1bf95;
+}
+
+@media (max-width: 900px) {
+  .tests-v11 .test-card {
+    height: auto;
+  }
+
+  .tests-v11 .test-content {
+    height: auto;
+  }
+
+  .tests-v11 .test-content h3,
+  .tests-v11 .test-lead {
+    min-height: 0;
+  }
+
+  .tests-v11 .test-cta {
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 620px) {
+  .tests-v11 .test-image {
+    min-height: 220px;
+  }
+
+  .tests-v11 .test-card:hover {
+    transform: none;
+  }
+}
