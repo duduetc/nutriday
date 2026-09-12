@@ -86,7 +86,7 @@ if ($handle !== false) {
       <header class="site-header shell">
         <a class="brand" href="#inicio" aria-label="NUTRIDAY - início"
           ><img
-            src="/logo-natriday.png"
+            src="/logo-nutriday.png"
             alt="NUTRIDAY - Nutrição Clínica e Genética"
             width="846"
             height="414"
