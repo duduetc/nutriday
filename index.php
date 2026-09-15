@@ -1,4 +1,5 @@
 <?php
+/*
 $counterFile = __DIR__ . '/contador-visitas.txt';
 $visitCount = 1;
 $handle = @fopen($counterFile, 'c+');
@@ -16,6 +17,7 @@ if ($handle !== false) {
   }
   fclose($handle);
 }
+*/
 ?>
 <!doctype html>
 <html lang="pt-BR">
