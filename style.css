@@ -3908,7 +3908,46 @@ button.quick-card {
     grid-template-columns: 1fr auto;
   }
 
+
   .admin-patient-row>i {
     display: none;
+  }
+}
+
+/* ── Botão flutuante WhatsApp ── */
+.whatsapp-float {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 200;
+  width: 60px;
+  height: 60px;
+  background: #25D366;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 28px rgba(37, 211, 102, .5);
+  text-decoration: none;
+  transition: transform .2s, box-shadow .2s;
+  animation: pulse-wpp 2.5s infinite;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 36px rgba(37, 211, 102, .7);
+}
+
+@keyframes pulse-wpp {
+  0% {
+    box-shadow: 0 6px 28px rgba(37, 211, 102, .5);
+  }
+
+  50% {
+    box-shadow: 0 6px 28px rgba(37, 211, 102, .5), 0 0 0 12px rgba(37, 211, 102, .15);
+  }
+
+  100% {
+    box-shadow: 0 6px 28px rgba(37, 211, 102, .5);
   }
 }
