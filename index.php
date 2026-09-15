@@ -201,7 +201,6 @@ if ($handle !== false) {
     </section>
     <section class="pillars shell motion-reveal" id="experiencia">
       <article class="pillar-card">
-        <div class="pillar-number">01</div>
         <div class="pillar-icon" aria-hidden="true"><span></span></div>
         <h3>Nutrição clínica</h3>
         <p>
@@ -211,7 +210,6 @@ if ($handle !== false) {
         <span class="card-arrow">↗</span>
       </article>
       <article class="pillar-card">
-        <div class="pillar-number">02</div>
         <div class="pillar-icon" aria-hidden="true"><span></span></div>
         <h3>Nutrição &amp; genética</h3>
         <p>
@@ -221,7 +219,6 @@ if ($handle !== false) {
         <span class="card-arrow">↗</span>
       </article>
       <article class="pillar-card">
-        <div class="pillar-number">03</div>
         <div class="pillar-icon" aria-hidden="true"><span></span></div>
         <h3>Acompanhamento contínuo</h3>
         <p>
@@ -250,7 +247,7 @@ if ($handle !== false) {
                   width: 100%;
                   height: 100%;
                   object-fit: cover;
-                " /><span>0<!-- -->1</span>
+                " />
           </div>
           <div class="test-content">
             <small>Alimentação &amp; resposta individual</small>
@@ -290,7 +287,7 @@ if ($handle !== false) {
                   width: 100%;
                   height: 100%;
                   object-fit: cover;
-                " /><span>0<!-- -->2</span>
+                " />
           </div>
           <div class="test-content">
             <small>Nutrição &amp; genética</small>
@@ -330,7 +327,7 @@ if ($handle !== false) {
                   width: 100%;
                   height: 100%;
                   object-fit: cover;
-                " /><span>0<!-- -->3</span>
+                " />
           </div>
           <div class="test-content">
             <small>Equilíbrio &amp; saúde intestinal</small>
